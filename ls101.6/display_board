@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /home/ec2-user/ls101/ls101.6/tictactoeLS.rb @ line 87 :
+
+    [1;34m82[0m:   computer_turn!(board)
+    [1;34m83[0m:   [32mbreak[0m [32mif[0m someone_won?(board) || board_full?(board)
+    [1;34m84[0m: [32mend[0m
+    [1;34m85[0m: 
+    [1;34m86[0m: [32mif[0m someone_won?(board)
+ => [1;34m87[0m:   binding.pry
+    [1;34m88[0m:   prompt([31m[1;31m"[0m[31m#{detect_winner(board)}[0m[31m won![1;31m"[0m[31m[0m)
+    [1;34m89[0m: [32melse[0m
+    [1;34m90[0m:   prompt([31m[1;31m"[0m[31mIt's a tie![1;31m"[0m[31m[0m)
+    [1;34m91[0m: [32mend[0m
+

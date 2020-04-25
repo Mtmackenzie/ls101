@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /home/ec2-user/ls101/small_problems/practice.7.25.2019.rb @ line 23 Object#substring_test:
+
+    [1;34m20[0m: [32mdef[0m [1;34msubstring_test[0m(str_one, str_two)
+    [1;34m21[0m:   ary_one = str_one.chars
+    [1;34m22[0m:   ary_two = str_two.chars
+ => [1;34m23[0m:   binding.pry
+    [1;34m24[0m:   substrings = []
+    [1;34m25[0m:   ary_one.map [32mdo[0m |character|
+    [1;34m26[0m:     [32mif[0m ary_two.include?(character)
+    [1;34m27[0m:       substrings << character
+    [1;34m28[0m:     [32mend[0m
+    [1;34m29[0m:   [32mend[0m
+    [1;34m30[0m:   substrings.size > [1;34m1[0m
+    [1;34m31[0m: [32mend[0m
+
